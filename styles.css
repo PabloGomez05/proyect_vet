@@ -1,0 +1,150 @@
+@media (max-width: 755px) {
+    .div-footer {
+        position: static !important;
+
+    }
+
+}
+
+@media (max-width: 531px) {
+    .img-header {
+        width: 32% !important;
+
+    }
+
+}
+
+@media (max-width: 965px) {
+    .row {
+
+        display: block !important;
+
+    }
+
+    .container {
+        padding: 5% !important;
+    }
+
+    .div-button {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: flex-end !important;
+        text-align: center !important;
+    }
+    .padding-footer{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    .mascota-ingresar{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .div-mascota{
+        padding-bottom: 5% !important;
+    }
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: black;
+}
+
+a:-webkit-any-link {
+    color: white !important;
+}
+
+header {
+    background-color: #8844a4;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+.myButton {
+    background-color: transparent;
+    border-radius: 42px;
+    border: 1px solid #0c9db3;
+    display: inline-block;
+    cursor: pointer;
+    color: #0c9db3;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 27px;
+    text-decoration: none;
+}
+
+.myButton1 {
+    background-color: #0c9db3;
+    border-radius: 42px;
+    border: 1px solid #0c9db3;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 14px 27px;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 42px;
+    box-sizing: border-box;
+}
+
+.custom-file-upload {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 42px;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* Cambia el cursor al pasar el mouse */
+    text-align: center;
+    color: #333;
+    /* Color del texto */
+    background-color: #fff;
+    /* Color de fondo */
+}
+
+/* Estilo para el input oculto */
+#file-upload {
+    display: none;
+}
