@@ -42,13 +42,6 @@ Abrí el archivo `index.html` con tu navegador preferido.
 
 ---
 
-## 📬 Contacto
-
-¿Consultas o sugerencias?  
-✉️ info@vetonline.com  
-📱 +54 9 11 5162 0516
-
----
 
 ## 📄 Licencia
 
