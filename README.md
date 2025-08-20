@@ -46,4 +46,5 @@ Abrí el archivo `index.html` con tu navegador preferido.
 ## 📄 Licencia
 
 Este proyecto fue realizado con fines educativos. Todos los derechos reservados.  
-Realizado por **Think B** - Seminario 2021.
+Realizado por **Pablo Gomez** - TSDS 2025.
+
